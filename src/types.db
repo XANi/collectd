@@ -83,7 +83,7 @@ files                   value:GAUGE:0:U
 flow                    value:GAUGE:0:U
 fork_rate               value:DERIVE:0:U
 frequency               value:GAUGE:0:U
-frequency_error         value:GAUGE:-2:2 
+frequency_error         value:GAUGE:-2:2
 frequency_offset        value:GAUGE:-1000000:1000000
 fscache_stat            value:DERIVE:0:U
 gauge                   value:GAUGE:U:U
@@ -141,7 +141,6 @@ mysql_sort              value:DERIVE:0:U
 mysql_sort_merge_passes value:DERIVE:0:U
 mysql_sort_rows         value:DERIVE:0:U
 mysql_slow_queries      value:DERIVE:0:U
-mysql_wsrep             value:DERIVE:0:U
 nfs_procedure           value:DERIVE:0:U
 nginx_connections       value:GAUGE:0:U
 nginx_requests          value:DERIVE:0:U
@@ -248,6 +247,7 @@ voltage_threshold       value:GAUGE:U:U, threshold:GAUGE:U:U
 vs_memory               value:GAUGE:0:9223372036854775807
 vs_processes            value:GAUGE:0:65535
 vs_threads              value:GAUGE:0:65535
+window_size             value:GAUGE:0:U
 
 #
 # Legacy types
